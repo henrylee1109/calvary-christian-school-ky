@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Calvary Christian School</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #0b0f19;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .school-logo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin: 0 auto 10px auto;
+      border: 5px solid #b91c1c;
+      overflow: hidden;
+    }
+
+    .school-logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    header h1 {
+      margin: 10px 0 5px;
+      font-size: 1.8rem;
+      color: #ffd700;
+    }
+
+    nav {
+      background-color: #b91c1c;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 6px 12px;
+      border-radius: 4px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background-color: rgba(255,255,255,0.2);
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      color: #b91c1c;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    .mission-vision {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      flex: 1 1 300px;
+      min-width: 280px;
+      border-left: 6px solid #b91c1c;
+    }
+
+    /* School photo styling */
+    .school-photo {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .school-caption {
+      color: #b91c1c;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .photo-divider {
+      width: 80px;
+      height: 4px;
+      background-color: #b91c1c;
+      margin: 0 auto 20px;
+      border-radius: 5px;
+    }
+
+    .school-photo img {
+      max-width: 100%;
+      width: 800px;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    }
+
+    .bible-verse {
+      margin-top: 25px;
+      font-style: italic;
+      color: #444;
+      font-size: 1.05rem;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    footer {
+      background-color: #0b0f19;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .school-logo {
+        width: 120px;
+        height: 120px;
+      }
+
+      header h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="school-logo">
+    <img src="images/photo.jpg" alt="Calvary Christian School Logo">
+  </div>
+  <h1>About Calvary Christian School</h1>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="academics.html">Academics</a>
+  <a href="admissions.html">Admissions</a>
+  <a href="events.html">Events</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+
+  <h2>Who We Are</h2>
+  <p>
+    Calvary Christian School is dedicated to providing Christ-centered education
+    in Barbourville, Kentucky. Our school focuses on developing students
+    academically, spiritually, and morally.
+  </p>
+
+  <p>
+    We foster a supportive environment where students grow in knowledge,
+    character, and faith while preparing for success in life.
+  </p>
+
+  <h2>Our Mission & Vision</h2>
+  <div class="mission-vision">
+    <div class="card">
+      <h3>Mission</h3>
+      <p>
+        To provide a Christ-centered education that nurtures academic excellence,
+        spiritual growth, and strong moral character.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Vision</h3>
+      <p>
+        To cultivate students who live out their faith while excelling
+        academically and serving their community.
+      </p>
+    </div>
+  </div>
+
+  <h2>Core Values</h2>
+  <div class="mission-vision">
+    <div class="card">
+      <h3>Faith</h3>
+      <p>
+        We prioritize spiritual growth through daily Bible learning and prayer.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Knowledge</h3>
+      <p>
+        We provide strong academics that prepare students for lifelong learning.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Character</h3>
+      <p>
+        We encourage integrity, responsibility, and kindness.
+      </p>
+    </div>
+  </div>
+
+  <div class="school-photo">
+    <h2 class="school-caption">Our School Campus</h2>
+    <div class="photo-divider"></div>
+    <img src="images/school-building.jpg" alt="Calvary Christian School Building">
+    <div class="bible-verse">
+    <strong>John 3:16</strong><br>
+    “For God so loved the world that He gave His only begotten Son,
+    that whoever believes in Him should not perish but have everlasting life.”
+  </div>
+</div>
+
+</div>
+
+<footer>
+  <p>© 2026 Calvary Christian School | Barbourville, Kentucky</p>
+</footer>
+
+</body>
+</html>
